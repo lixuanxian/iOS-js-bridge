@@ -21,6 +21,7 @@
 		61BC227A160A225F00E80B84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61BC2258160A225E00E80B84 /* Foundation.framework */; };
 		61BC2282160A225F00E80B84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61BC2280160A225F00E80B84 /* InfoPlist.strings */; };
 		61BC2285160A225F00E80B84 /* JS_bridgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61BC2284160A225F00E80B84 /* JS_bridgeTests.m */; };
+		61BC228F160A240300E80B84 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 61BC228E160A240300E80B84 /* test.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		61BC2281160A225F00E80B84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		61BC2283160A225F00E80B84 /* JS_bridgeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JS_bridgeTests.h; sourceTree = "<group>"; };
 		61BC2284160A225F00E80B84 /* JS_bridgeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JS_bridgeTests.m; sourceTree = "<group>"; };
+		61BC228E160A240300E80B84 /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		61BC225C160A225E00E80B84 /* JS bridge */ = {
 			isa = PBXGroup;
 			children = (
+				61BC228E160A240300E80B84 /* test.html */,
 				61BC2265160A225E00E80B84 /* AppDelegate.h */,
 				61BC2266160A225E00E80B84 /* AppDelegate.m */,
 				61BC2268160A225E00E80B84 /* MainStoryboard_iPhone.storyboard */,
@@ -228,6 +231,7 @@
 				61BC2261160A225E00E80B84 /* InfoPlist.strings in Resources */,
 				61BC226A160A225E00E80B84 /* MainStoryboard_iPhone.storyboard in Resources */,
 				61BC226D160A225E00E80B84 /* MainStoryboard_iPad.storyboard in Resources */,
+				61BC228F160A240300E80B84 /* test.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIWebViewDelegate>
+- (IBAction)executeJS:(id)sender;
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
 
 @end

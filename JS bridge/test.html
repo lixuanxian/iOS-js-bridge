@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function executeNative() {
+                window.location = "native://showAlert?message=essa é uma mensagem do JS"
+            }
+            
+            function showJSON(json) {
+                var json = JSON.parse(json);
+                alert(json["id"]);
+                
+                return json["id"];
+            }
+        </script>
+    </head>
+    <body>
+        <h1>JS Bridge test</h1>
+        
+        <a href="javascript: void(0)" onclick="executeNative()">Execute Native</a>
+    </body>
+</html>
