@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61BC2257160A225E00E80B84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61BC2256160A225E00E80B84 /* UIKit.framework */; };
+		61BC2259160A225E00E80B84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61BC2258160A225E00E80B84 /* Foundation.framework */; };
+		61BC225B160A225E00E80B84 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61BC225A160A225E00E80B84 /* CoreGraphics.framework */; };
+		61BC2261160A225E00E80B84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61BC225F160A225E00E80B84 /* InfoPlist.strings */; };
+		61BC2263160A225E00E80B84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61BC2262160A225E00E80B84 /* main.m */; };
+		61BC2267160A225E00E80B84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61BC2266160A225E00E80B84 /* AppDelegate.m */; };
+		61BC226A160A225E00E80B84 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61BC2268160A225E00E80B84 /* MainStoryboard_iPhone.storyboard */; };
+		61BC226D160A225E00E80B84 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61BC226B160A225E00E80B84 /* MainStoryboard_iPad.storyboard */; };
+		61BC2270160A225E00E80B84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61BC226F160A225E00E80B84 /* ViewController.m */; };
+		61BC2278160A225F00E80B84 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61BC2277160A225F00E80B84 /* SenTestingKit.framework */; };
+		61BC2279160A225F00E80B84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61BC2256160A225E00E80B84 /* UIKit.framework */; };
+		61BC227A160A225F00E80B84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61BC2258160A225E00E80B84 /* Foundation.framework */; };
+		61BC2282160A225F00E80B84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61BC2280160A225F00E80B84 /* InfoPlist.strings */; };
+		61BC2285160A225F00E80B84 /* JS_bridgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61BC2284160A225F00E80B84 /* JS_bridgeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61BC227B160A225F00E80B84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61BC2249160A225E00E80B84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61BC2251160A225E00E80B84;
+			remoteInfo = "JS bridge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61BC2252160A225E00E80B84 /* JS bridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JS bridge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61BC2256160A225E00E80B84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		61BC2258160A225E00E80B84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		61BC225A160A225E00E80B84 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		61BC225E160A225E00E80B84 /* JS bridge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JS bridge-Info.plist"; sourceTree = "<group>"; };
+		61BC2260160A225E00E80B84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		61BC2262160A225E00E80B84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61BC2264160A225E00E80B84 /* JS bridge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JS bridge-Prefix.pch"; sourceTree = "<group>"; };
+		61BC2265160A225E00E80B84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		61BC2266160A225E00E80B84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		61BC2269160A225E00E80B84 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		61BC226C160A225E00E80B84 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		61BC226E160A225E00E80B84 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		61BC226F160A225E00E80B84 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		61BC2276160A225F00E80B84 /* JS bridgeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JS bridgeTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61BC2277160A225F00E80B84 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		61BC227F160A225F00E80B84 /* JS bridgeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JS bridgeTests-Info.plist"; sourceTree = "<group>"; };
+		61BC2281160A225F00E80B84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		61BC2283160A225F00E80B84 /* JS_bridgeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JS_bridgeTests.h; sourceTree = "<group>"; };
+		61BC2284160A225F00E80B84 /* JS_bridgeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JS_bridgeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61BC224F160A225E00E80B84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61BC2257160A225E00E80B84 /* UIKit.framework in Frameworks */,
+				61BC2259160A225E00E80B84 /* Foundation.framework in Frameworks */,
+				61BC225B160A225E00E80B84 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61BC2272160A225F00E80B84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61BC2278160A225F00E80B84 /* SenTestingKit.framework in Frameworks */,
+				61BC2279160A225F00E80B84 /* UIKit.framework in Frameworks */,
+				61BC227A160A225F00E80B84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61BC2247160A225E00E80B84 = {
+			isa = PBXGroup;
+			children = (
+				61BC225C160A225E00E80B84 /* JS bridge */,
+				61BC227D160A225F00E80B84 /* JS bridgeTests */,
+				61BC2255160A225E00E80B84 /* Frameworks */,
+				61BC2253160A225E00E80B84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61BC2253160A225E00E80B84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61BC2252160A225E00E80B84 /* JS bridge.app */,
+				61BC2276160A225F00E80B84 /* JS bridgeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61BC2255160A225E00E80B84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61BC2256160A225E00E80B84 /* UIKit.framework */,
+				61BC2258160A225E00E80B84 /* Foundation.framework */,
+				61BC225A160A225E00E80B84 /* CoreGraphics.framework */,
+				61BC2277160A225F00E80B84 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61BC225C160A225E00E80B84 /* JS bridge */ = {
+			isa = PBXGroup;
+			children = (
+				61BC2265160A225E00E80B84 /* AppDelegate.h */,
+				61BC2266160A225E00E80B84 /* AppDelegate.m */,
+				61BC2268160A225E00E80B84 /* MainStoryboard_iPhone.storyboard */,
+				61BC226B160A225E00E80B84 /* MainStoryboard_iPad.storyboard */,
+				61BC226E160A225E00E80B84 /* ViewController.h */,
+				61BC226F160A225E00E80B84 /* ViewController.m */,
+				61BC225D160A225E00E80B84 /* Supporting Files */,
+			);
+			path = "JS bridge";
+			sourceTree = "<group>";
+		};
+		61BC225D160A225E00E80B84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61BC225E160A225E00E80B84 /* JS bridge-Info.plist */,
+				61BC225F160A225E00E80B84 /* InfoPlist.strings */,
+				61BC2262160A225E00E80B84 /* main.m */,
+				61BC2264160A225E00E80B84 /* JS bridge-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		61BC227D160A225F00E80B84 /* JS bridgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				61BC2283160A225F00E80B84 /* JS_bridgeTests.h */,
+				61BC2284160A225F00E80B84 /* JS_bridgeTests.m */,
+				61BC227E160A225F00E80B84 /* Supporting Files */,
+			);
+			path = "JS bridgeTests";
+			sourceTree = "<group>";
+		};
+		61BC227E160A225F00E80B84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61BC227F160A225F00E80B84 /* JS bridgeTests-Info.plist */,
+				61BC2280160A225F00E80B84 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61BC2251160A225E00E80B84 /* JS bridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61BC2288160A225F00E80B84 /* Build configuration list for PBXNativeTarget "JS bridge" */;
+			buildPhases = (
+				61BC224E160A225E00E80B84 /* Sources */,
+				61BC224F160A225E00E80B84 /* Frameworks */,
+				61BC2250160A225E00E80B84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JS bridge";
+			productName = "JS bridge";
+			productReference = 61BC2252160A225E00E80B84 /* JS bridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61BC2275160A225F00E80B84 /* JS bridgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61BC228B160A225F00E80B84 /* Build configuration list for PBXNativeTarget "JS bridgeTests" */;
+			buildPhases = (
+				61BC2271160A225F00E80B84 /* Sources */,
+				61BC2272160A225F00E80B84 /* Frameworks */,
+				61BC2273160A225F00E80B84 /* Resources */,
+				61BC2274160A225F00E80B84 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61BC227C160A225F00E80B84 /* PBXTargetDependency */,
+			);
+			name = "JS bridgeTests";
+			productName = "JS bridgeTests";
+			productReference = 61BC2276160A225F00E80B84 /* JS bridgeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61BC2249160A225E00E80B84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = RubyThree;
+			};
+			buildConfigurationList = 61BC224C160A225E00E80B84 /* Build configuration list for PBXProject "JS bridge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 61BC2247160A225E00E80B84;
+			productRefGroup = 61BC2253160A225E00E80B84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61BC2251160A225E00E80B84 /* JS bridge */,
+				61BC2275160A225F00E80B84 /* JS bridgeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61BC2250160A225E00E80B84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61BC2261160A225E00E80B84 /* InfoPlist.strings in Resources */,
+				61BC226A160A225E00E80B84 /* MainStoryboard_iPhone.storyboard in Resources */,
+				61BC226D160A225E00E80B84 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61BC2273160A225F00E80B84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61BC2282160A225F00E80B84 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		61BC2274160A225F00E80B84 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61BC224E160A225E00E80B84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61BC2263160A225E00E80B84 /* main.m in Sources */,
+				61BC2267160A225E00E80B84 /* AppDelegate.m in Sources */,
+				61BC2270160A225E00E80B84 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61BC2271160A225F00E80B84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61BC2285160A225F00E80B84 /* JS_bridgeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61BC227C160A225F00E80B84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61BC2251160A225E00E80B84 /* JS bridge */;
+			targetProxy = 61BC227B160A225F00E80B84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61BC225F160A225E00E80B84 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61BC2260160A225E00E80B84 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		61BC2268160A225E00E80B84 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61BC2269160A225E00E80B84 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		61BC226B160A225E00E80B84 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61BC226C160A225E00E80B84 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		61BC2280160A225F00E80B84 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61BC2281160A225F00E80B84 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61BC2286160A225F00E80B84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61BC2287160A225F00E80B84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61BC2289160A225F00E80B84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JS bridge/JS bridge-Prefix.pch";
+				INFOPLIST_FILE = "JS bridge/JS bridge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		61BC228A160A225F00E80B84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JS bridge/JS bridge-Prefix.pch";
+				INFOPLIST_FILE = "JS bridge/JS bridge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		61BC228C160A225F00E80B84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JS bridge.app/JS bridge";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JS bridge/JS bridge-Prefix.pch";
+				INFOPLIST_FILE = "JS bridgeTests/JS bridgeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		61BC228D160A225F00E80B84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JS bridge.app/JS bridge";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JS bridge/JS bridge-Prefix.pch";
+				INFOPLIST_FILE = "JS bridgeTests/JS bridgeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61BC224C160A225E00E80B84 /* Build configuration list for PBXProject "JS bridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61BC2286160A225F00E80B84 /* Debug */,
+				61BC2287160A225F00E80B84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61BC2288160A225F00E80B84 /* Build configuration list for PBXNativeTarget "JS bridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61BC2289160A225F00E80B84 /* Debug */,
+				61BC228A160A225F00E80B84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		61BC228B160A225F00E80B84 /* Build configuration list for PBXNativeTarget "JS bridgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61BC228C160A225F00E80B84 /* Debug */,
+				61BC228D160A225F00E80B84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61BC2249160A225E00E80B84 /* Project object */;
+}
